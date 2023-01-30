@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stream Music - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Stream music"> Stream Music </li>
+            
+            <div class ="search">
+                <i class="bi bi-search"></i>
+                <input type ="text" placeholder="Search Music ...">
+                <svg xmlns="http://www.w3.org/2000/svg" width="245" height="28" fill="green" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007
+                     1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+            </div>
+            <li>Home</li>
+            <li>About</li>
+            <li>Manage Subscription </li>
+            <li>Download App</li>
+            <li>SIGN IN </li>
+        </ul>
+       
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>NEW SONGS MIX </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">G.O.A.T. Diljeet doshanj </span>
+                    <span class="songlistplay"><span class="timestamp">03:43 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Baller - Shubh</span>
+                    <span class="songlistplay"><span class="timestamp">02:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Gulabi Aankhe - Sanam</span>
+                    <span class="songlistplay"><span class="timestamp">03:18 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tu Aake Dekh le - King
+                    </span>
+                    <span class="songlistplay"><span class="timestamp">04:42 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Same Beef - sidhu moose wala</span>
+                    <span class="songlistplay"><span class="timestamp">04:50 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">295 - sidhu moose wala
+                    </span>
+                    <span class="songlistplay"><span class="timestamp">04:33 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ghamand kar - (Tanhaji the unsung warrior)</span>
+                    <span class="songlistplay"><span class="timestamp">04:43 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Shiv Tandav Stotram - shankar mahadevan</span>
+                    <span class="songlistplay"><span class="timestamp">09:13 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Shoorveer 2 - Rapperiya Baalam</span>
+                    <span class="songlistplay"><span class="timestamp">03:25 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Shoorveer 3 - Rapperiya Baalam</span>
+                    <span class="songlistplay"><span class="timestamp">03:29 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="bar" id="bar"></div>
+        
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-step-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+       
+            <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif">
+            <span id="masterSongName"></span>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
